@@ -8,7 +8,7 @@
 
 ### 🧠 Career Objectives
 
-- 🔧 **Short-Term**: Become a **Data Engineer** or **Machine Learning Engineer**
+- 🔧 **Short-Term**: Become a **Machine Learning Engineer**
 - 🚀 **Long-Term**: Specialize in **Computer Vision** and advanced **Deep Learning** techniques (CNNs, image recognition, etc.)
 
 ---

@@ -9,7 +9,7 @@
 ### 🧠 Career Objectives
 
 - 🔧 **Short-Term**: To secure an **AI/ML Engineer** role where I can apply my skills in building, automating, and deploying ML pipelines.
-- 🚀 **Long-Term**: To specialize in **Computer Vision** and advanced **MLOps**, designing and managing scalable, production-grade deep learning systems.
+- 🚀 **Long-Term**: To specialize in **Computer Vision** and advanced **MLOps** like VLLM and sg lang, designing and managing scalable, production-grade deep learning systems.
 
 ---
 

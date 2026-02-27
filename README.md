@@ -162,11 +162,12 @@ NxtWave Disruptive Technologies | March 2025 - September 2025
 
 ---
 
-## 📈 GitHub Stats
+## 🚀 Selected Research & Production Work
 
-![Anil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=timbersaw-jugg&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=timbersaw-jugg&layout=compact&theme=dark&hide_border=true)
+- IEEE Published ML system deployed with BentoML
+- Failure-aware localization framework under journal review
+- Healthcare AI with explainable vision models
+- End-to-end ML pipelines with MLOps and cloud integration
 
 ---
 

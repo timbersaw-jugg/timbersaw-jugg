@@ -1,67 +1,199 @@
-# 👋 Hi, I'm Anil
+# 👋 Hi, I'm Anil Vansarla
 
-🎓 M.Tech student in **Applied Artificial Intelligence** at VNIT Nagpur.  
-💼 Currently interning in the **Data Science / Machine Learning** domain.  
-🚀 Passionate about building robust, end-to-end AI systems and aiming for a full-time **AI Engineer** role in 2026.
+[![IEEE Publication](https://img.shields.io/badge/IEEE-CICN%202025-blue?style=flat-square)](https://doi.org/10.1109/CICN67655.2025.11367998)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/anilvansarla)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/timbersaw-jugg)
 
----
+**Machine Learning Engineer** | **Published Researcher (IEEE CICN-2025)** | M.Tech in Applied AI @ VNIT Nagpur
 
-### 🧠 Career Objectives
-
-- 🔧 **Short-Term**: To secure an **AI/ML Engineer** role where I can apply my skills in building, automating, and deploying ML pipelines.
-- 🚀 **Long-Term**: To specialize in **Computer Vision** and advanced **MLOps** like VLLM and sg lang, designing and managing scalable, production-grade deep learning systems.
+Specializing in **production ML systems**, **robust deep learning**, and **healthcare AI**. I build end-to-end ML pipelines from research to deployment, with expertise in time-series modeling, computer vision, and failure-aware systems.
 
 ---
 
-### 🛠️ Skills & Tools
+## 🎯 What I Do
 
-**Languages**:  
-`Python` | `SQL` | `C++`
-
-**AI & Deep Learning**:  
-`PyTorch` | `TensorFlow` | `Scikit-learn` | `Hugging Face` | `LangChain` | `OpenCV` | `YOLO`
-
-**Data Science**:  
-`NumPy` | `Pandas` | `Matplotlib` | `Seaborn`
-
-**MLOps & DevOps**:  
-`MLflow` | `BentoML` | `Docker` | `Kubernetes` | `Git` | `GitHub` | `Flask` | `Render`
+- 🔬 **ML Research** → Published at IEEE CICN-2025, journal submission under review
+- 🏗️ **Production ML** → Building robust, deployable ML systems with MLOps best practices
+- 🏥 **Healthcare AI** → Computer vision for medical imaging with explainable AI
+- 📊 **Data Engineering** → End-to-end pipelines with Kafka, Airflow, and AWS
+- 🚀 **Deployment** → Containerized ML services using BentoML, Docker, Kubernetes
 
 ---
 
-### 🌟 Highlighted Projects
+## 🏆 Featured Research & Projects
 
-#### 📍 [Indoor Localization with Deep Learning](https://github.com/timbersaw-jugg/Indoor_localization_project)
-> An end-to-end MLOps project that refactors a research notebook into a production-ready application. The system uses a pre-trained **Denoising Autoencoder** and a **CNN-LSTM** model in PyTorch to predict indoor coordinates from RSSI signals.
->
-> **Key Features:**
-> - **Automated Pipeline**: A single `run.py` script handles data processing, K-Fold cross-validation, and training.
-> - **Experiment Tracking**: Fully integrated with **MLflow** to track all parameters, metrics, and model artifacts.
-> - **Deployment-Ready**: The final ensemble model is packaged into a live API using **BentoML**, containerized with **Docker**, and prepared for deployment on **Kubernetes**.
+### 📍 [Failure-Aware Indoor Localization](https://github.com/timbersaw-jugg/failure-aware-ble-localization) ⭐ **Under Journal Review**
+> **Robust RSSI-based localization achieving 1.3% degradation under 92% sensor failure (vs 2614% in baselines)**
 
-#### 💬 [One Piece Review Sentiment Analysis](https://github.com/timbersaw-jugg/one_piece_review)
-> A complete NLP project that performs sentiment analysis on scraped anime reviews. This demonstrates an end-to-end data pipeline: from web scraping with BeautifulSoup to text processing, sentiment scoring with **TextBlob**, and finally, creating insightful data visualizations.
+A failure-aware ML framework using **Masked Channel Pretraining** and **Attention Mechanisms** to enable reliable indoor localization when infrastructure fails. Solves a critical real-world problem where standard deep learning models catastrophically collapse.
 
----
+**🔑 Key Innovations:**
+- **Masked Channel Pretraining (MCP)** - Self-supervised learning for robust representations
+- **Physics-Safe WGAN-GP** - Constrained augmentation for rare failure patterns  
+- **TCN-Transformer Hybrid** - Local stability + global attention for partial observability
+- **Production-Ready** - Sub-50ms inference on commodity hardware
 
-### 🛠️ Additional Projects
+**📊 Impact:** 20× improvement over industry baseline (1.3% vs 20-40% degradation under failures)
 
-A collection of projects demonstrating foundational skills in Python, data handling, and API usage.
+**🛠️ Tech Stack:** PyTorch, Transformers, WGAN-GP, TCN, Attention Mechanisms, MLflow
 
-- 🔢 [`digit-recognizer`](https://github.com/timbersaw-jugg/digit-recognizer): A classic CNN-based digit classification app deployed on Render.
-- 📚 [`library`](https://github.com/timbersaw-jugg/library): Book management system.
-- 🔒 [`password`](https://github.com/timbersaw-jugg/password): Password generator.
-- 🎮 [`rps`](https://github.com/timbersaw-jugg/rps): Rock-Paper-Scissors game.
-- 📝 [`todo`](https://github.com/timbersaw-jugg/todo): CLI-based to-do list.
-- ... and more on my profile.
+**📄 Status:** Submitted to SCI-indexed peer-reviewed journal (Jan 2026)
 
 ---
 
-### 🌍 Connect With Me
+### 📍 [AI-Based Indoor Localization (CNN-LSTM)](https://github.com/timbersaw-jugg/Indoor_localization) ✅ **Published at IEEE CICN-2025**
 
-- [**LinkedIn**](https://www.linkedin.com/in/anilvansarla) 
-- 📬 *Email available upon request*
+[![DOI](https://img.shields.io/badge/DOI-10.1109/CICN67655.2025.11367998-blue)](https://doi.org/10.1109/CICN67655.2025.11367998)
+
+> **87.7% classification accuracy** for sub-meter indoor positioning using BLE RSSI fingerprints
+
+End-to-end MLOps project demonstrating **research-to-production** pipeline for indoor localization using deep learning.
+
+**🔑 Key Features:**
+- **Hybrid Architecture** - CNN spatial features + LSTM temporal modeling
+- **Ensemble Strategy** - 5-fold cross-validation with logit averaging
+- **Production Deployment** - BentoML service with REST API
+- **Containerized** - Docker + Kubernetes ready
+- **Experiment Tracking** - Full MLflow integration
+
+**🛠️ Tech Stack:** PyTorch, BentoML, Docker, MLflow, Kubernetes
+
+**📄 Publication:** [IEEE Xplore](https://ieeexplore.ieee.org/document/11367998)  
+**📚 Citation:** Vansarla & Agarwal, IEEE CICN 2025, DOI: 10.1109/CICN67655.2025.11367998
 
 ---
 
-> “I’m passionate about building robust machine learning systems, from foundational scripts to fully deployed neural networks. Let’s connect if you’re working on data, MLOps, or computer vision.”
+### 🏥 [OphthaDR - Diabetic Retinopathy Detection](https://github.com/timbersaw-jugg/OphthaDR) 🩺
+
+> **Vision-Guided Clinical Summary System** combining computer vision + NLP for automated medical documentation
+
+Healthcare AI application integrating **fundus image classification** with **GradCAM explainability** and **Retrieval-Augmented Generation (RAG)** for patient-friendly clinical summaries.
+
+**🔑 Key Features:**
+- **Explainable AI** - GradCAM visual explanations for medical image classification
+- **RAG Pipeline** - Context-aware clinical summary generation
+- **Modular Architecture** - Clear API interfaces for production deployment
+- **Safety-First Design** - Safe prompt engineering for non-diagnostic clinical support
+
+**🛠️ Tech Stack:** PyTorch, OpenCV, Transformers, RAG, FastAPI, GradCAM
+
+**🎯 Use Case:** Automated clinical documentation reducing physician workload while maintaining explainability
+
+---
+
+### 💬 [Anime Review Sentiment Analysis](https://github.com/timbersaw-jugg/one_piece_review)
+
+> **End-to-end NLP pipeline** from web scraping to sentiment visualization
+
+Complete data pipeline demonstrating: web scraping (BeautifulSoup) → text processing → sentiment analysis (TextBlob) → data visualization.
+
+**🛠️ Tech Stack:** Python, BeautifulSoup, TextBlob, Pandas, Matplotlib
+
+---
+
+## 🛠️ Technical Skills
+
+### **Machine Learning & Deep Learning**
+`PyTorch` `TensorFlow` `Scikit-learn` `Transformers` `Hugging Face` `LangChain`
+
+**Specialized:** CNN-LSTM, Attention Mechanisms, GANs, Masked Learning, Self-Supervised Learning, RAG
+
+### **Computer Vision & NLP**
+`OpenCV` `YOLO` `GradCAM` `BERT` `GPT` `Explainable AI`
+
+### **MLOps & Production**
+`MLflow` `BentoML` `Docker` `Kubernetes` `CI/CD` `Model Deployment` `API Development`
+
+### **Data Engineering**
+`Apache Kafka` `Apache Airflow` `Terraform` `AWS Glue` `AWS Kinesis` `MySQL` `PostgreSQL` `NoSQL`
+
+**Certified:** DeepLearning.AI Data Engineering Specialization (Dec 2025)
+
+### **Cloud & Infrastructure**
+`AWS (S3, EC2, RDS, Glue, Kinesis)` `REST APIs` `DAG Orchestration` `ETL Pipelines`
+
+### **Programming & Tools**
+`Python` `SQL` `C++` `Git` `NumPy` `Pandas` `Matplotlib` `Seaborn`
+
+---
+
+## 📚 Publications & Research
+
+### **Published**
+📄 **Anil Vansarla, Amit Agarwal**  
+*"AI-Based Indoor Localization Using RSSI: CNN–LSTM Based Approach"*  
+**IEEE 17th International Conference on Computational Intelligence and Communication Networks (CICN-2025)**  
+Goa, India | December 20-21, 2025  
+DOI: [10.1109/CICN67655.2025.11367998](https://doi.org/10.1109/CICN67655.2025.11367998)
+
+### **Under Review**
+📄 **Anil Kumar, Amit Agarwal**  
+*"Failure-Aware RSSI-Based Indoor Localization Using Masked Attention Models"*  
+**Submitted to SCI-Indexed Journal** | January 2026  
+*Achieving 1.3% degradation under 92% sensor failure vs 2614% in supervised baselines*
+
+---
+
+## 🎓 Education & Certifications
+
+**M.Tech in Applied Artificial Intelligence**  
+Visvesvaraya National Institute of Technology (VNIT), Nagpur | 2024-2026 | CGPA: 8.37/10.0
+
+**B.E. in Electrical & Electronics Engineering**  
+Osmania University, Hyderabad | 2012-2016
+
+### **Certifications**
+- ✅ **Data Engineering Specialization** - DeepLearning.AI & AWS (Dec 2025)
+- ✅ **Data Modeling, Transformation, and Serving** - DeepLearning.AI (Dec 2025)
+- ✅ **Data Storage and Queries** - DeepLearning.AI & AWS (Nov 2025)
+- ✅ **Source Systems, Data Ingestion, and Pipelines** - DeepLearning.AI & AWS (Oct 2025)
+
+---
+
+## 💼 Professional Experience
+
+**Technical Content Developer (AI/ML Intern)**  
+NxtWave Disruptive Technologies | March 2025 - September 2025
+
+- Developed ML/DL modules for Data Science program serving 5,000+ learners
+- Collaborated with industry engineers in Agile sprints, delivering 12+ technical modules
+- Created Python-based demonstrations and interactive notebooks for applied ML concepts
+- 95%+ learner satisfaction across 3 Agile sprints
+
+---
+
+## 📈 GitHub Stats
+
+![Anil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=timbersaw-jugg&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=timbersaw-jugg&layout=compact&theme=dark&hide_border=true)
+
+---
+
+## 🎯 Current Focus (2026)
+
+🔍 **Seeking Full-Time Machine Learning Engineer Roles**
+
+**Areas of Interest:**
+- 🏥 Healthcare AI & Medical Imaging
+- 📊 Time-Series Forecasting & Sensor Data
+- 🔧 Robust ML Systems & Failure-Aware Learning
+- 🚀 Production ML & MLOps
+- 📡 IoT & RSSI-Based Localization
+
+---
+
+## 📬 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/anilvansarla)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:anil.kumar87654321@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/timbersaw-jugg)
+
+📧 **Email:** anil.kumar87654321@gmail.com  
+🔗 **Portfolio:** https://github.com/timbersaw-jugg  
+📄 **Resume:** Available upon request  
+
+---
+
+*Last Updated: January 2026*  
+*© 2026 Anil Vansarla | VNIT Nagpur*

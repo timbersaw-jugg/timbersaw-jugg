@@ -22,14 +22,14 @@ Specializing in **production ML systems**, **robust deep learning**, and **healt
 
 ## 🏆 Featured Research & Projects
 
-### 📍 [Failure-Aware Indoor Localization](https://github.com/timbersaw-jugg/failure-aware-ble-localization) ⭐ **Under Journal Review**
+### 📍 [Sparse-Signal Indoor Localization](https://github.com/timbersaw-jugg/sparse-signal-ble-localization)
 > **Robust RSSI-based localization achieving 1.3% degradation under 92% sensor failure (vs 2614% in baselines)**
 
-A failure-aware ML framework using **Masked Channel Pretraining** and **Attention Mechanisms** to enable reliable indoor localization when infrastructure fails. Solves a critical real-world problem where standard deep learning models catastrophically collapse.
+A Sparse Signal ML framework using **Masked Channel Pretraining** and **Attention Mechanisms** to enable reliable indoor localization when infrastructure fails. Solves a critical real-world problem where standard deep learning models catastrophically collapse.
 
 **🔑 Key Innovations:**
 - **Masked Channel Pretraining (MCP)** - Self-supervised learning for robust representations
-- **Physics-Safe WGAN-GP** - Constrained augmentation for rare failure patterns  
+- **Conditional WGAN-GP** - Constrained augmentation for rare failure patterns  
 - **TCN-Transformer Hybrid** - Local stability + global attention for partial observability
 - **Production-Ready** - Sub-50ms inference on commodity hardware
 
@@ -37,7 +37,6 @@ A failure-aware ML framework using **Masked Channel Pretraining** and **Attentio
 
 **🛠️ Tech Stack:** PyTorch, Transformers, WGAN-GP, TCN, Attention Mechanisms, MLflow
 
-**📄 Status:** Submitted to SCI-indexed peer-reviewed journal (Jan 2026)
 
 ---
 
